@@ -38,8 +38,8 @@ The following shows the initial data frame created by pandas for this example:
    As a genral practice, uppercase characte is used for the matrix of independent variables while the lower case is used for the target variable
 
 ```python
-X = dataset.iloc[:,0:3]
-y = dataset.iloc[:,3:4]
+    X = dataset.iloc[:,0:3]
+    y = dataset.iloc[:,3:4]
 ```
 2. Handling Missing Data:
 
