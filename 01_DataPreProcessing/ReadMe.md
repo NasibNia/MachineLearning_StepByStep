@@ -28,7 +28,7 @@ Pandas creates a dataframe for us (a framework similar to the tables in the exce
 The first step in processing any data is to look into our data set and get a sence of it. 
 
 The following shows the initial data frame created by pandas for this example:
-![raw Data](pics/rawData.png')
+![raw Data](pics/rawData.png)
 
 ### Initial CheckList and actions:
 1. Creating new variables, Lets call them X and y, where X = Matrix of **independent Variables(featurs)** and y=array of **Dependent Variable(target)**. As a genral practice, uppercase characte is used for the matrix of independent variables while the lower case is used for the target variable
