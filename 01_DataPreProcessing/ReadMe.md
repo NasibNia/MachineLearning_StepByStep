@@ -31,10 +31,14 @@ The following shows the initial data frame created by pandas for this example:
 ![raw Data](pics/rawData.png)
 
 ### Initial CheckList and actions:
-1. Creating new variables, Lets call them X and y, where X = Matrix of **independent Variables(featurs)** and y=array of **Dependent Variable(target)**. As a genral practice, uppercase characte is used for the matrix of independent variables while the lower case is used for the target variable
+1. Defrentiating independent variables and dependent variable:
+...Creating new variables, Lets call them X and y, where X = Matrix of **independent Variables(featurs)** and y=array of **Dependent Variable(target)**. 
+...As a genral practice, uppercase characte is used for the matrix of independent variables while the lower case is used for the target variable
 
 ```python
 X = dataset.iloc[:,0:3]
 y = dataset.iloc[:,3:4]
 ```
-2. 
+2. Handling Missing Data:
+
+
